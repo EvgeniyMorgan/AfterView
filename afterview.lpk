@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="AfterView"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)\"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="AVBevel.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="AVBevel"/>
+      </Item>
+      <Item>
+        <Filename Value="AVColorBox.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="AVColorBox"/>
+      </Item>
+      <Item>
+        <Filename Value="AVGauge.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="AVGauge"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="LCLBase"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
