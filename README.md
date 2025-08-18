@@ -3,7 +3,6 @@
 > For any potential issues, please email us. ewgen.morgunov@yandex.ru
 
 # AfterView
-Перевод проекта с Delphi на Lazarus
 
 Converting Delphi projects to Lazarus
 
